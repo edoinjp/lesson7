@@ -163,22 +163,22 @@ body {
   border-radius: 35px;
 }
 .triplebox:nth-child(1) {
-  background-color: #4386d2;
+  background: linear-gradient(#fbba77, #dfa871);
 }
 .triplebox:nth-child(2) {
-  background-color: #a5a2f6;
+  background: linear-gradient(#4386d2, #0962c5);
 }
 .triplebox:nth-child(3) {
-  background-color: #ff8088;
+  background: linear-gradient(#a5a2f6, #564fd6);
 }
 .triplebox1:nth-child(1) {
-  background-color: #fbba77;
+  background: linear-gradient(#ff8088, #984141);
 }
 .triplebox1:nth-child(2) {
-  background-color: #41eae3;
+  background: linear-gradient(#41eae3, #2293b7);
 }
 .triplebox1:nth-child(3) {
-  background-color: #69529f;
+  background: linear-gradient(#69529f, #463864);
 }
 /* animation */
 .bordera:hover {

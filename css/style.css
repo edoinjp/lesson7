@@ -190,3 +190,6 @@ body {
 .li:hover {
   transform: scale(1.5);
 }
+.bordera:hover {
+  color: black;
+}

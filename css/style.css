@@ -79,13 +79,13 @@ body {
 }
 /* hexsa block */
 .hexsabox {
-  width: 1440px;
+  width: 1140px;
   height: 1240px;
   margin: 0 auto;
 }
 .textbox3 {
-  width: 840px;
-  height: 235px;
+  width: 640px;
+  height: 335px;
 }
 .triple-top-box {
   display: flex;
@@ -99,8 +99,8 @@ body {
   justify-content: space-between;
 }
 .triplebox {
-  width: 370px;
-  height: 450px;
+  width: 280px;
+  height: 370px;
   background-color: #29a7c1;
   display: flex;
   justify-content: center;
@@ -108,8 +108,8 @@ body {
   flex-direction: column;
 }
 .triplebox1 {
-  width: 370px;
-  height: 450px;
+  width: 280px;
+  height: 370px;
   background-color: #29a7c1;
   display: flex;
   justify-content: center;
@@ -136,12 +136,14 @@ body {
 }
 .textboxp2 {
   height: 85px;
-  font-size: 18px;
+  font-size: 16px;
 }
 .ptext {
-  width: 300px;
+  width: 200px;
   height: 60px;
   text-align: center;
+  font-size: 13px;
+  font-weight: 200;
 }
 .title6 {
   font-size: 20px;

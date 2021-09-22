@@ -153,7 +153,7 @@ body {
 .bordera {
   width: 130px;
   height: 45px;
-
+  color: white;
   text-align: center;
   display: flex;
   justify-content: center;

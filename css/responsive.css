@@ -86,9 +86,14 @@
   .logo {
     margin-left: 0px;
   }
-}
-@media (max-width: 320px) {
-.right-box {
+  .img33 {
     max-width: 300px;
     height: 200px;
+  }
+}
+@media (max-width: 320px) {
+  .img33 {
+    max-width: 280px;
+    height: 200px;
+  }
 }

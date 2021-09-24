@@ -3,18 +3,17 @@ body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .logo {
-  width: 195px;
+  max-width: 295px;
   height: 35px;
-  position: absolute;
   display: flex;
   justify-content: center;
-  top: 67px;
-  left: 90px;
+  margin-top: 82px;
+  margin-left: 90px;
 }
+
 .navigation {
-  position: relative;
   height: 313;
-  width: 100%;
+  max-width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -22,11 +21,11 @@ body {
 .navpanel {
   width: 581px;
   height: 24px;
-  display: flex;
   font-size: 13px;
-  justify-content: space-around;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 100px;
   margin-top: 82px;
-  margin-left: 900px;
 }
 .wave {
   height: 22px;
@@ -34,28 +33,36 @@ body {
 
 /* doublesection */
 .doublesection {
-  position: relative;
-  max-width: 100%;
+  /* max-width: 100%; */
   height: 960px;
+  display: flex;
 }
 .left-box {
-  position: absolute;
-  width: 460px;
-  height: 700px;
-  top: 286px;
-  left: 86px;
+  display: flex;
+  max-width: 460px;
+  height: 400px;
+  margin-top: 300px;
+  margin-left: 80px;
+  flex-direction: column;
 }
+/* .img33 {
+  padding-top: 180px;
+} */
 .right-box {
-  position: absolute;
-  top: 210px;
-  right: 31px;
+  width: 800px;
+  max-height: 800px;
+  margin-top: 120px;
+  margin-left: 100px;
+  display: flex;
 }
 .lefttext1 {
-  width: 300px;
+  /* width: 400px; */
   height: 150px;
   font-size: 40px;
 }
 .lefttext2 {
+  /* width: 400px; */
+  height: 40px;
   font-size: 16px bold;
   color: rgb(7, 1, 1);
   vertical-align: middle;
@@ -66,8 +73,8 @@ body {
   font-weight: bold;
   bottom: 15px;
 }
+
 .wave1 {
-  position: absolute;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -75,16 +82,16 @@ body {
   width: 160px;
   height: 40px;
   border-radius: 38px 38px 38px 38px;
-  top: 250px;
+  margin-top: 60px;
 }
 /* hexsa block */
 .hexsabox {
-  max-width: 1140px;
+  width: 1140px;
   height: 1240px;
   margin: 0 auto;
 }
 .textbox3 {
-  width: 640px;
+  max-width: 640px;
   height: 335px;
 }
 .triple-top-box {
@@ -117,11 +124,13 @@ body {
   flex-direction: column;
 }
 .textbox3 {
-  width: 720px;
-  height: 150px;
+  max-width: 720px;
+  height: 200px;
   margin: 0 auto;
+  display: flex;
   text-align: center;
   margin-bottom: 80px;
+  flex-direction: column;
 }
 .title {
   font-size: 20px;
@@ -130,12 +139,10 @@ body {
 }
 .textboxp1 {
   font-size: 40px;
-  height: 48px;
   margin-bottom: 10px;
   margin-top: 12px;
 }
 .textboxp2 {
-  height: 85px;
   font-size: 16px;
 }
 .ptext {

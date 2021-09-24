@@ -9,6 +9,7 @@ body {
   justify-content: center;
   margin-top: 82px;
   margin-left: 90px;
+  filter: drop-shadow(0 0 0.75rem rgb(49, 74, 218));
 }
 .burger {
   display: none;
@@ -32,6 +33,7 @@ body {
   justify-content: space-between;
   margin-right: 100px;
   margin-top: 82px;
+  filter: drop-shadow(0 0 0.75rem rgb(49, 74, 218));
 }
 .wave {
   height: 22px;
@@ -44,6 +46,7 @@ body {
   display: flex;
 }
 .left-box {
+  filter: drop-shadow(0 0 0.75rem rgb(49, 74, 218));
   display: flex;
   max-width: 460px;
   height: 400px;
@@ -60,6 +63,7 @@ body {
   margin-top: 120px;
   margin-left: 100px;
   display: flex;
+  filter: drop-shadow(0 0 0.75rem rgb(49, 74, 218));
 }
 .lefttext1 {
   /* width: 400px; */
@@ -79,7 +83,6 @@ body {
   font-weight: bold;
   bottom: 15px;
 }
-
 .wave1 {
   display: flex;
   justify-content: space-around;
@@ -89,6 +92,7 @@ body {
   height: 40px;
   border-radius: 38px 38px 38px 38px;
   margin-top: 60px;
+  box-shadow: 5px 5px 4px 6px #608cbe;
 }
 /* hexsa block */
 .hexsabox {
@@ -99,6 +103,7 @@ body {
 .textbox3 {
   max-width: 640px;
   height: 335px;
+  filter: drop-shadow(0 0 0.75rem rgb(49, 74, 218));
 }
 .triple-top-box {
   display: flex;
@@ -119,6 +124,7 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  box-shadow: 5px 10px 8px 10px #888888;
 }
 .triplebox1 {
   width: 310px;
@@ -128,6 +134,7 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  box-shadow: 5px 10px 8px 10px #888888;
 }
 .textbox3 {
   max-width: 720px;

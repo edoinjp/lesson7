@@ -49,6 +49,13 @@
     flex-direction: column;
     align-items: center;
   }
+  .triplebox1 {
+    margin-bottom: 10px;
+  }
+  .triplebox {
+    margin-bottom: 10px;
+  }
+
   .right-box {
     max-width: 650px;
     height: 400px;

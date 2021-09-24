@@ -17,6 +17,10 @@
 .triplebox {
   flex-wrap: wrap;
 }
+.left-box {
+  margin-right: auto;
+  margin-left: auto;
+}
 .right-box {
   margin: 0 auto;
 }
@@ -32,6 +36,9 @@
 
   .navpanel1 {
     display: none;
+  }
+  .burger {
+    display: block;
   }
   .triple-top-box {
     flex-direction: column;
@@ -60,7 +67,6 @@
   }
   .lefttext1 {
     height: auto;
-    background-color: blueviolet;
   }
   .lefttext2 {
     height: auto;

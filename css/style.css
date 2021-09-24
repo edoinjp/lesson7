@@ -10,6 +10,12 @@ body {
   margin-top: 82px;
   margin-left: 90px;
 }
+.burger {
+  display: none;
+  margin-top: 83px;
+  margin-right: 10px;
+  font-size: 30px;
+}
 
 .navigation {
   height: 313;

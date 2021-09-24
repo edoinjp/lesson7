@@ -82,7 +82,8 @@
   }
   .left-box {
     margin: 10px auto;
-  }
+    margin-bottom: -90px;
+  
   .logo {
     margin-left: 0px;
   }

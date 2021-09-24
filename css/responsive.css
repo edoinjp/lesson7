@@ -52,14 +52,14 @@
     align-items: center;
   }
   .right-box {
-    width: 650px;
+    max-width: 650px;
     height: 400px;
     /* align-content: center; */
   }
 }
 @media (max-width: 730px) {
   .right-box {
-    width: 500px;
+    max-width: 500px;
     height: 300px;
     align-content: center;
   }
@@ -80,7 +80,7 @@
 }
 @media (max-width: 550px) {
   .right-box {
-    width: 330px;
+    max-width: 330px;
     height: 200px;
     align-content: center;
     margin: 0 auto;

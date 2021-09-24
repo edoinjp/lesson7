@@ -82,7 +82,7 @@
   .right-box {
     height: 200px;
     align-content: center;
-    margin: auto;
+    margin: 0 auto;
   }
   .logo {
     margin-left: 0px;

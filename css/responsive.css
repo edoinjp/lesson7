@@ -55,6 +55,17 @@
   }
 }
 @media (max-width: 730px) {
+  .logo {
+    margin-top: auto;
+    margin-bottom: 20px;
+  }
+  .lefttext2 {
+    margin-top: 15px;
+  }
+
+  .burger {
+    margin-top: auto;
+  }
   .right-box {
     max-width: 500px;
     height: 300px;
@@ -81,9 +92,9 @@
     height: 200px;
   }
   .left-box {
-    margin: 10px auto;
+    margin: 20px auto;
     margin-bottom: -90px;
-  
+  }
   .logo {
     margin-left: 0px;
   }

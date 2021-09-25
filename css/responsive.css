@@ -10,23 +10,24 @@
     height: auto;
     width: auto;
   }
-}
-.triplebox1 {
-  flex-wrap: wrap;
-}
-.triplebox {
-  flex-wrap: wrap;
-}
-.left-box {
-  margin-right: auto;
-  margin-left: auto;
-}
-.right-box {
-  margin: 0 auto;
-}
 
-.img33 {
-  margin: 0 auto;
+  .triplebox1 {
+    flex-wrap: wrap;
+  }
+  .triplebox {
+    flex-wrap: wrap;
+  }
+  .left-box {
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .right-box {
+    margin: 0 auto;
+  }
+
+  .img33 {
+    margin: 0 auto;
+  }
 }
 
 @media (max-width: 950px) {
